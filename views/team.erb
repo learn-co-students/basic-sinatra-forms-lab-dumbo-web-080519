@@ -5,10 +5,9 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
-
+   <% @team_hash.each do |position, name| %>
+   <h2> <%= "#{position}#{name}" %> </h2>
+   <% end %>
 
  </body>
 </html>
-
-
